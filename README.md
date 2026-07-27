@@ -15,6 +15,16 @@ This is an independent community tap, not an official Homebrew repository.
 
 ## Installation
 
+Homebrew requires explicit trust before it loads a non-official tap. Trust this tap before installing its casks:
+
+```sh
+brew tap mrchi/legacy-casks
+brew trust mrchi/legacy-casks
+brew install --cask mrchi/legacy-casks/permute@3
+```
+
+`brew trust mrchi/legacy-casks` trusts all current and future contents of this tap. For a one-off installation, install the fully qualified cask directly instead; Homebrew grants trust only for that cask:
+
 ```sh
 brew tap mrchi/legacy-casks
 brew install --cask mrchi/legacy-casks/permute@3
