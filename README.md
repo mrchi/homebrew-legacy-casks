@@ -35,6 +35,7 @@ brew install --cask mrchi/legacy-casks/permute@3
 | Cask | Version | Notes |
 | --- | --- | --- |
 | `permute@3` | 3.14.8 (4018) | Final Permute 3 release |
+| `kubie` | 0.28.0-fork1 | Fork build with the fish prompt fix (arm64) |
 
 ## Maintenance
 
